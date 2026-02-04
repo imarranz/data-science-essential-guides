@@ -1,7 +1,7 @@
 
-# Essential Guides for Data Science
+# Data Science Essential Guides
 
-A lightweight, static web application for hosting and browsing the **Essential Guides for Data Science** — a curated collection of Data Science books available as downloadable PDFs.
+A lightweight, static web application for hosting and browsing the **Data Science Essential Guides**, A curated collection of Data Science books available as downloadable PDFs.
 
 The site provides fast search, topic filtering, and a clean card-based layout to explore technical books built by data scientists, for data scientists.
 
@@ -165,6 +165,3 @@ GitHub: [https://github.com/imarranz](https://github.com/imarranz)
 
 ---
 
-## 📄 License
-
-MIT
