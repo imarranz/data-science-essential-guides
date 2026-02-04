@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Essential Guide Book Hub</title>
+  <meta name="description" content="A digital bookshelf for your Data Science Essential Guides. Search by topic and download PDFs." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Inter:wght@300;400;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <link rel="icon"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📚</text></svg>">
+</head>
+<body>
+  <div class="container">
+    <header role="banner">
+      <!--<div class="kicker"><span class="dot"></span><span>Essential Guide Series</span></div>-->
+      <h1>Data Science Essential Guides</h1>
+      <p style="color:var(--muted); font-size:1.5rem; margin-top:6px;">
+        A digital bookshelf for your <span style="color:var(--yellow)">Data Science Essential Guides</span>. Search by topic and download PDFs.<br>Resources <span class="highlight">built by data scientists, for data scientists</span>.
+      </p>
+      <p style="color:var(--muted); font-size:1.1rem; margin-top:6px;">
+        Ibon Martinez-Arranz |
+        <a href="https://github.com/imarranz" target="_blank">
+          <img src="https://img.shields.io/badge/GitHub-imarranz-181717?logo=github&style=flat"
+              alt="GitHub @imarranz" style="vertical-align:middle; margin-left:4px;">
+        </a> |
+        <a href="https://github.com/imarranz/data-science-essential-guides/pulls">
+          <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?longCache=true" alt="Pull Requests" style="vertical-align:middle; margin-left:4px;">
+        </a> |
+        <a href="https://github.com/imarranz/data-science-essential-guides" target="_blank">
+          <img src="https://img.shields.io/github/stars/imarranz/data-science-essential-guides?style=social"
+              alt="GitHub Stars" style="vertical-align:middle; margin-left:4px;">
+        </a> | If you find it useful, consider supporting it on GitHub: ⭐
+      </p>
+
+
+      <div class="controls" role="search">
+        <label class="sr-only" for="q">Buscar</label>
+        <input id="q" type="search" placeholder="Search by title, description, or tags…" autocomplete="off" />
+        <label class="sr-only" for="tag">Etiqueta</label>
+        <select id="tag">
+          <option value="">Labels: All</option>
+        </select>
+      </div>
+      <p id="counter" class="count"></p>
+    </header>
+
+    <main aria-live="polite">
+      <section>
+        <div id="grid" class="grid"></div>
+        <p id="status" class="empty"></p>
+      </section>
+    </main>
+
+    <footer>
+      <hr class="line" />
+      <p>
+      <span class="highlight">
+        Your contributions keep this project alive and collaborative. Suggestions for new books or improvements to existing content are always welcome and beneficial to the data science community. Contribute on GitHub.
+      </span>
+      </p>
+    </footer>
+  </div>
+
+  <div class="menu-container">
+    <div class="menu-button" id="menuBtn" aria-label="Menu" title="Menu">&#9776;</div>
+
+    <div class="menu-dropdown" id="menu">
+      <div class="menu-title">
+        <strong>Data Science Essential Guides</strong>
+      </div>
+
+      <hr>
+
+      <p class="menu-desc">
+        A digital bookshelf for your Data Science Essential Guides. Search by topic and download PDFs.
+        Resources <span class="highlight">built by data scientists, for data scientists</span>.
+      </p>
+
+      <p class="menu-row">👤 Ibon Martínez-Arranz (@imarranz)</p>
+
+      <!-- Cambia este enlace al repo real -->
+      <a class="menu-link" href="https://github.com/imarranz" target="_blank" rel="noopener">
+        📂 Go to repository
+      </a>
+    </div>
+  </div>
+
+
+
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

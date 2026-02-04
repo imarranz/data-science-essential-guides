@@ -1,0 +1,121 @@
+[
+  {
+    "slug": "essential-guide-to-matplotlib",
+    "title": "Essential Guide to Matplotlib",
+    "tags": [
+      "Visualization",
+      "Python",
+      "Plotting"
+    ],
+    "desc": "Matplotlib without pain: figures, axes, styles, layouts, annotations, colormaps, export, and templates for scientific plots and static dashboards.",
+    "pdf": "books/essential-guide-to-matplotlib.pdf",
+    "epub": "books/essential-guide-to-matplotlib.epub",
+    "cover": "assets/img/essential-guide-to-matplotlib.png"
+  },
+  {
+    "slug": "essential-guide-to-pandas",
+    "title": "Essential Guide to pandas",
+    "tags": [
+      "Analysis",
+      "Data Wrangling",
+      "Python",
+      "Statistics"
+    ],
+    "desc": "The modern classic: IO, indexing, groupby, merge, time series, performance tuning, best practices, and patterns for reproducible everyday analysis.",
+    "pdf": "books/essential-guide-to-pandas.pdf",
+    "epub": "books/essential-guide-to-pandas.epub",
+    "cover": "assets/img/essential-guide-to-pandas.png"
+  },
+  {
+    "slug": "essential-guide-to-seaborn",
+    "title": "Essential Guide to Seaborn",
+    "tags": [
+      "Visualization",
+      "Plotting",
+      "Statistics",
+      "Python"
+    ],
+    "desc": "Statistical visualization with taste: distributions, relationships, categorical plots, faceting, and composition, focused on storytelling and rapid exploration.",
+    "pdf": "books/essential-guide-to-seaborn.pdf",
+    "epub": "books/essential-guide-to-seaborn.epub",
+    "cover": "assets/img/essential-guide-to-seaborn.png"
+  },
+  {
+    "slug": "essential-guide-to-scikit-learn",
+    "title": "Essential Guide to scikit-learn",
+    "tags": [
+      "Machine Learning",
+      "Python",
+      "Pipelines"
+    ],
+    "desc": "From zero to production: estimators, transformers, ColumnTransformer, cross-validation, hyperparameter search, and design patterns for robust ML projects.",
+    "pdf": "books/essential-guide-to-scikit-learn.pdf",
+    "epub": "books/essential-guide-to-scikit-learn.epub",
+    "cover": "assets/img/essential-guide-to-scikit-learn.png"
+  },
+  {
+    "slug": "essential-guide-to-awk",
+    "title": "Essential Guide to AWK",
+    "tags": [
+      "CLI",
+      "Text Processing",
+      "Data Wrangling"
+    ],
+    "desc": "Master AWK to clean, transform, and summarize text on Linux: patterns, fields, functions, arrays, and real-world pipelines for logs, CSVs, and large files.",
+    "pdf": "books/essential-guide-to-awk.pdf",
+    "epub": "books/essential-guide-to-awk.epub",
+    "cover": "assets/img/essential-guide-to-awk.png"
+  },
+  {
+    "slug": "essential-guide-to-feature-engineering",
+    "title": "Essential Guide to Feature Engineering",
+    "tags": [
+      "Machine Learning",
+      "Preprocessing",
+      "Pipelines"
+    ],
+    "desc": "Real-world feature engineering: encoding, scaling, outliers, discretization, leakage prevention, feature selection, and validation with reproducible pipelines.",
+    "pdf": "books/essential-guide-to-feature-engineering.pdf",
+    "epub": "books/essential-guide-to-feature-engineering.epub",
+    "cover": "assets/img/essential-guide-to-feature-engineering.png"
+  },
+  {
+    "slug": "essential-guide-to-model-evaluation-metrics",
+    "title": "Essential Guide to Model Evaluation Metrics",
+    "tags": [
+      "Statistics",
+      "Model Evaluation",
+      "Machine Learning"
+    ],
+    "desc": "Metrics with intent: confusion matrix, ROC/AUC, precision–recall, F1, calibration, costs, and trade-offs. Geometric intuition and practical Python implementations.",
+    "pdf": "books/essential-guide-to-model-evaluation-metrics.pdf",
+    "epub": "books/essential-guide-to-model-evaluation-metrics.epub",
+    "cover": "assets/img/essential-guide-to-model-evaluation-metrics.png"
+  },
+  {
+    "slug": "essential-guide-to-sql-with-python",
+    "title": "Essential Guide to SQL with Python (SQLite + pandas)",
+    "tags": [
+      "SQL",
+      "Analysis",
+      "Data Engineering"
+    ],
+    "desc": "Practical SQL with SQLite and pandas: data modeling, joins, window functions, indexing, complex queries, and integration into notebooks and reproducible pipelines.",
+    "pdf": "books/essential-guide-to-sql-with-python.pdf",
+    "epub": "books/essential-guide-to-sql-with-python.epub",
+    "cover": "assets/img/essential-guide-to-sql-with-python.png"
+  },
+  {
+    "slug": "essential-guide-to-clean-data",
+    "title": "Essential Guide to Clean Data",
+    "tags": [
+      "Data Cleaning",
+      "Quality",
+      "Analysis"
+    ],
+    "desc": "The art of keeping data from self-destructing: missing values, data types, validation rules, business logic, anomaly detection, and documentation for traceability.",
+    "pdf": "books/essential-guide-to-clean-data.pdf",
+    "epub": "books/essential-guide-to-clean-data.epub",
+    "cover": "assets/img/essential-guide-to-clean-data.png"
+  }
+]
