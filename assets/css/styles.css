@@ -7,7 +7,7 @@
   --morado:#5c2959;
   --bg:#f3f4f6;
   --card: rgba(229, 235, 238, 1.0);
-  --card2: rgba(107,153,166,.1);
+  --card2: rgba(107, 153, 166, 0.1);
   --fg:#111827;
   --muted:#4b5563;
   --border:rgba(17,24,39,.10);
@@ -181,9 +181,34 @@ footer
   font-weight: 700;
 }
 
+.footer-content{
+  display:flex;
+  align-items:center;
+  gap:18px;
+}
+
+.footer-logo{
+  width:150px;       /* ajusta tamaño */
+  height:auto;
+}
+
+.footer-content p{
+  margin:0;
+}
+
+@media(max-width:600px){
+  .footer-content{
+    flex-direction:column;
+    align-items:flex-start;
+  }
+
+  .footer-logo{
+    width:50px;
+  }
+}
 
 /* ─────────────────────────────
-   Top-right menu (hamburger)
+   Top-right menu (Hamburger)
    ───────────────────────────── */
 .menu-container{
   position:fixed;
